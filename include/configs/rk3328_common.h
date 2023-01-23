@@ -9,6 +9,9 @@
 #include "rockchip-common.h"
 
 #define CONFIG_IRAM_BASE		0xff090000
+#define CONFIG_MISC 1
+#define CONFIG_MISC_INIT_R 1
+#define CONFIG_ROCKCHIP_EFUSE 1
 
 /* FAT sd card locations. */
 #define CONFIG_SYS_SDRAM_BASE		0
